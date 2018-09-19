@@ -11,6 +11,5 @@ end
 
 
 def not_safe?(answer)
-	
-	answer < 40 ? false : true
+	(answer > 40) && (answer < 60) ? false : true
 end
