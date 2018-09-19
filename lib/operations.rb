@@ -10,6 +10,6 @@ end
 
 
 
-def not_safe?(answer = 79)
+def not_safe?(answer)
 	answer > 60 ? : true
 end
