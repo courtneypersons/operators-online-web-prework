@@ -10,6 +10,6 @@ end
 
 
 
-def not_safe?(speed)
-	speed > 60 ? : true
+def not_safe?(answer = 79)
+	answer > 60 ? : true
 end
